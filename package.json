@@ -1,0 +1,30 @@
+{
+  "name": "@danielgiljam/prettierrc",
+  "version": "2.0.0",
+  "description": "My Prettier configuration.",
+  "homepage": "https://github.com/DanielGiljam/prettierrc#readme",
+  "bugs": "https://github.com/DanielGiljam/prettierrc/issues",
+  "license": "MIT",
+  "author": "Daniel Giljam (https://github.com/DanielGiljam)",
+  "files": [],
+  "main": "index.js",
+  "repository": "github:DanielGiljam/prettierrc",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.6.1",
+    "@typescript-eslint/parser": "^3.6.1",
+    "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard-jsx": "^8.1.0",
+    "eslint-config-standard-with-typescript": "^18.0.2",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.6"
+  },
+  "peerDependencies": {
+    "prettier": "^2.0.5"
+  }
+}

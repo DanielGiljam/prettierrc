@@ -1,6 +1,6 @@
 {
   "name": "@danielgiljam/prettierrc",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "My Prettier configuration.",
   "homepage": "https://github.com/DanielGiljam/prettierrc#readme",
   "bugs": "https://github.com/DanielGiljam/prettierrc/issues",
@@ -9,6 +9,12 @@
   "files": [],
   "main": "index.js",
   "repository": "github:DanielGiljam/prettierrc",
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint --fix .",
+    "format": "prettier --write .",
+    "ff": "npm run fix && npm run format"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^3.6.1",
     "@typescript-eslint/parser": "^3.6.1",

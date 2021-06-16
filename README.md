@@ -7,7 +7,7 @@ My [Prettier] configuration.
 Install [@danielgiljam/prettierrc] and [prettier].
 
 ```bash
-npm i @danielgiljam/prettierrc prettier
+npm i @danielgiljam/prettierrc prettier@^2.3.1
 ```
 
 Create a file called `.prettierrc.js`.
